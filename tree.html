@@ -7,9 +7,10 @@
     <title>شجرة الاكواد</title>
 </head>
 <body>  
+    <div></div>
           <!-------
           min-width: 350px; من 350 بكسل فما فوق
-          max-width: 350px;  من 0 الى 350 بكسل
+          max-width: 350px;  من 0 الى 350 بكسل لا اكثر
           -------------------
           transition: 1.5;  /* مدة بقاء تاثير الانتقال*/
           transition-delay: 1s; /* وقت العنصر قبل تاثير الانتقال*/
@@ -28,9 +29,19 @@
           background-image: url('img_tree.gif'); تحديد صورة
           ------------------  
          border-color: red blue dark green; تحديد الوان كل حافة
+         pointer-events: none;
+         trasnform-origin: (); 
+         stroke: #6fbc6d;
+         stroke-width: 2;
+         stroke-dasharray: 5381;
+         stroke-dashoffset: 5381;
+         appearance: none;
         ------->
-        
-      
+        <style>
+            div {
+                transform-origin: 10px;
+            }
+        </style>
     
 </body>
 </html>
